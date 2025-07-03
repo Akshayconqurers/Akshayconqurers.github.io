@@ -166,22 +166,6 @@ h2 {
   margin-top: 1em;
 }
 
-@media (max-width: 900px) {
-  main {
-    padding: 1em;
-  }
-  .projects-list {
-    flex-direction: column;
-  }
-  .github-stats {
-    flex-direction: column;
-  }
-}
-
-ul {
-  margin: 1em 0 0 1.4em;
-}
-
 /* Contact Form Styles */
 .contact-form {
   max-width: 450px;
@@ -215,6 +199,7 @@ ul {
 .contact-form button:hover {
   background: #d81b38;
 }
+
 footer {
   background: #222;
   color: #fff;
@@ -231,4 +216,20 @@ footer {
 }
 .footer-links a:hover {
   text-decoration: underline;
+}
+
+@media (max-width: 900px) {
+  main {
+    padding: 1em;
+  }
+  .projects-list {
+    flex-direction: column;
+  }
+  .github-stats {
+    flex-direction: column;
+  }
+}
+
+ul {
+  margin: 1em 0 0 1.4em;
 }
