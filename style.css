@@ -1,0 +1,183 @@
+body {
+  font-family: 'Roboto', Arial, sans-serif;
+  background: #f6f8fa;
+  color: #212529;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  text-align: center;
+  background: #fff;
+  padding: 2em 1em 1em 1em;
+  box-shadow: 0 2px 8px #0001;
+}
+
+header h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.3em;
+  margin: 0.2em 0 0.3em 0;
+}
+
+header p {
+  font-size: 1.1em;
+}
+
+.subtitle {
+  color: #457b9d;
+  font-size: 1.1em;
+  margin: 0.5em 0 0 0;
+}
+
+main {
+  max-width: 900px;
+  margin: 2em auto;
+  background: #fff;
+  border-radius: 14px;
+  box-shadow: 0 4px 10px #0001;
+  padding: 2em;
+}
+
+section {
+  margin-bottom: 2.5em;
+}
+
+h2 {
+  font-family: 'Montserrat', Arial, sans-serif;
+  color: #e63946;
+  margin-top: 0;
+  border-bottom: 2px solid #e63946;
+  padding-bottom: 0.3em;
+}
+
+.projects-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5em;
+}
+
+.project {
+  background: #f6f8fa;
+  border-radius: 10px;
+  box-shadow: 0 1px 4px #0001;
+  padding: 1em 1.2em;
+  flex: 1 1 340px;
+  min-width: 260px;
+  margin-bottom: 1em;
+}
+
+.project h3 {
+  margin-top: 0;
+}
+
+.repo-link {
+  margin-top: 1em;
+  font-weight: bold;
+}
+
+.repo-link a {
+  text-decoration: none;
+  color: #0077b6;
+  font-size: 1.1em;
+}
+
+.skills-table {
+  overflow-x: auto;
+  margin-top: 1em;
+}
+
+.skills-table table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #f6f8fa;
+}
+
+.skills-table th,
+.skills-table td {
+  text-align: center;
+  padding: 1em;
+  border-bottom: 1px solid #e9ecef;
+}
+
+.skills-table th {
+  color: #457b9d;
+  font-weight: 600;
+}
+
+.toolbox-icons {
+  text-align: center;
+  margin-top: 1em;
+}
+
+.github-stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.2em;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1.2em;
+}
+
+.github-stats img {
+  background: #222;
+  border-radius: 10px;
+  margin-bottom: 1em;
+  max-width: 320px;
+  width: 100%;
+}
+
+.github-profile-dynamic {
+  text-align: center;
+  margin-top: 1em;
+}
+
+.github-profile-dynamic img {
+  margin: 0.5em 0;
+  max-width: 95%;
+  height: auto;
+}
+
+.connect-links {
+  display: flex;
+  justify-content: center;
+  gap: 1.2em;
+  flex-wrap: wrap;
+  margin-top: 1em;
+}
+
+.connect-links img {
+  height: 42px;
+  transition: transform 0.15s;
+}
+
+.connect-links img:hover {
+  transform: scale(1.1) rotate(-3deg);
+}
+
+.centered-quote {
+  text-align: center;
+  font-size: 1.15em;
+  color: #495057;
+  margin-top: 2em;
+}
+
+.profile-views {
+  text-align: center;
+  margin-top: 1em;
+}
+
+@media (max-width: 900px) {
+  main {
+    padding: 1em;
+  }
+  .projects-list {
+    flex-direction: column;
+  }
+  .github-stats {
+    flex-direction: column;
+  }
+}
+
+ul {
+  margin: 1em 0 0 1.4em;
+}
